@@ -1,6 +1,6 @@
 <template>
   <div class="absolute bottom-0 flex">
-    <ListNode :node="head" />
+    <ListNode :node="(head as node)" />
   </div>
 </template>
 <script setup lang="ts">

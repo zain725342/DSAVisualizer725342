@@ -1,6 +1,6 @@
 <template>
   <div class="absolute bottom-0">
-    <TreeNode :node="root" />
+    <TreeNode :node="(root as node)" />
   </div>
 </template>
 <script setup lang="ts">
